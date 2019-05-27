@@ -1,7 +1,7 @@
 ## Governance Working Group
 ![working group status: active](https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge) [![our chat: #wg-governance](https://img.shields.io/badge/discord-%23wg--governance-blue.svg?style=for-the-badge)][discord]
 
-## _[see the Charta][charta]_
+## _[see the Charter][charter]_
 
 - **Dedicated repository:** [rust-lang/wg-governance][repository]
 - **Discord channel:** [#wg-governance][discord]
@@ -26,7 +26,7 @@ We have a bi-weekly triage meeting, organising the issues. It takes place every 
 Decisions, especially around publishing or speaking in the name of the working group, are taken asynchronously through loomio. Unless otherwise decided, any decision must open for at least three working days (72h) and all members be invited to join. 
 
 [discord]: https://discord.gg/mbFZg48
-[charta]: CHARTA.md
+[charter]: CHARTER.md
 [repository]: https://github.com/rust-lang/wg-governance/
 [issues]: https://github.com/rust-lang/wg-governance/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
 [backlog]: https://github.com/rust-lang/wg-governance/milestone/4
