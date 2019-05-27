@@ -1,9 +1,32 @@
-# wg-governance
+## Governance Working Group
+![working group status: active](https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge) [![our chat: #wg-governance](https://img.shields.io/badge/discord-%23wg--governance-blue.svg?style=for-the-badge)][discord]
 
-This is the repository for the Rust Governance Working Group, looking to work on improving Rust's internal processes.
+## _[see the Charta][charta]_
 
-You can read the announcement about this [here](https://internals.rust-lang.org/t/governance-working-group-announcement/9637).
+- **Dedicated repository:** [rust-lang/wg-governance][repository]
+- **Discord channel:** [#wg-governance][discord]
+- **Loomio Group:** _TBD_
 
-We're still figuring out how to proceed as a group; over time this repository will be updated with more information on what we're doing, what our charter is, how to get involved, etc.
 
-Our members can be found [here](https://www.rust-lang.org/governance/teams/core#wg-governance)
+## How can I get involved?
+
+_[See our current list of members here](https://www.rust-lang.org/governance/teams/core#wg-governance)._
+
+If you'd like to get involved, the best idea right now is to introduce yourself
+in our [discord channel][discord] -- and perhaps consider attending the next triage meeting to get involved.
+
+## Work style & Meetings
+
+We use [Github issues][issues] to organise our work. We use milestones and Github projects to organise and track them. Every ticket should be assigned to either the current, upcoming milestone or to the [Backlog][]. Tasks are discussed, organised and closed directly on the issue or through the internal loomio.
+
+We have a bi-weekly triage meeting, organising the issues. It takes place every other Tuesday 10pm GMT (starting April 23rd 2019) on Zoom. Attendance is not mandatory but we expect to update the tickets with the latest information leading to it, so the triage can check it off and archive, postpone or re-assign it accordingly.
+
+### Decisions
+
+Decisions, especially around publishing or speaking in the name of the working group, are taken asynchronously through loomio. Unless otherwise decided, any decision must open for at least three working days (72h) and all members be invited to join. 
+
+[discord]: https://discord.gg/mbFZg48
+[charta]: CHARTA.md
+[repository]: https://github.com/rust-lang/wg-governance/
+[issues]: https://github.com/rust-lang/wg-governance/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+[backlog]: https://github.com/rust-lang/wg-governance/milestone/4
