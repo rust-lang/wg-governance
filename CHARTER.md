@@ -28,7 +28,7 @@ We would also like to produce a "guidebook" for new teams and working groups. Pe
 
 To clarify, here are a few things we don't do and are not responsible for:
 
- - **we will not** decide your divisive issue for your
+ - **we will not** decide your divisive issue for you
  - **we do not** play the referee, moderator or judge in a contentious debate
  - **we will not** resolve your beef with each other
  - **neither will we** create processes so you don't have to communicate or work with each other any more
