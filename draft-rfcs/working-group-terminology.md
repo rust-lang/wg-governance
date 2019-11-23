@@ -51,7 +51,7 @@ Before going into the differences between these groups it's important to start w
   - Groups are of course able to create RFCs as well as advocate their concerns and desired changes to the Rust teams and community.
 - Both groups are entitled to have an space in any or all of Rust's officially managed discussion forums.
   - As the time of this writing this includes [Zulip] and [Discord].
-  - Groups also free to create their spaces on platform's where the Rust project does not have a presence. Moderation for these spaces should still follow Rust's [Code of Conduct].
+  - Groups also free to create their spaces on platforms where the Rust project does not have a official presence. Moderation for these spaces should still follow Rust's [Code of Conduct].
 
 [zulip]: https://rust-lang.zulipchat.com
 [discord]: https://discord.gg/rust-lang
