@@ -43,7 +43,7 @@ Before going into the differences between these groups it's important to start w
 - Groups have at least one shepherd who acts as the leader of the group and is responsible for writing the initial charter, handling adminstrative and communication tasks, as well as delegating responsibilities to other members in the group.
   - [This blog post][shep-post] explains in detail the role of the shepherds.
 - Groups should have a liason member associated with an official Rust team.
-  - This liason may also be but is not required to be the shepherd.
+  - This liason may also be but is not required to be a shepherd.
 - Membership for both groups are represented on the official rust-lang.org website.
 - Membership requirements for both groups is decided by the shepherd and should be stated in the charter.
   - Initial membership should try to represent people who have been participating regularly and productively in the respective area.
