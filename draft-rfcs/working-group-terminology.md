@@ -47,7 +47,7 @@ Before going into the differences between these groups it's important to start w
 - Membership for both groups are represented on the official rust-lang.org website.
 - Membership requirements for both groups is decided by the shepherd and should be stated in the charter.
   - Initial membership should try to represent people who have been participating regularly and productively in the respective area.
-- Neither group has _"formal decision making power"_. Where "formal decision making power" is defined as being able to accept RFCs on `rust-lang/rfcs` as well as not having representation in the Core team.
+- Neither group has _"formal decision making power"_. Where "formal decision making power" is defined as being able to accept RFCs on `rust-lang/rfcs`. Similarly, neither group has representation on the Core team.
   - Groups are of course able to create RFCs as well as advocate their concerns and desired changes to the Rust teams and community.
 - Both groups are entitled to have an space in any or all of Rust's officially managed discussion forums.
   - As the time of this writing this includes [Zulip] and [Discord].
