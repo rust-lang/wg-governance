@@ -49,9 +49,9 @@ Before going into the differences between these groups it's important to start w
   - Initial membership should try to represent people who have been participating regularly and productively in the respective area.
 - Neither group has _"formal decision making power"_. Where "formal decision making power" is defined as being able to accept RFCs on `rust-lang/rfcs`. Similarly, neither group has representation on the Core team.
   - Groups are of course able to create RFCs as well as advocate their concerns and desired changes to the Rust teams and community.
-- Both groups are entitled to have an space in any or all of Rust's officially managed discussion forums.
+- Both groups are entitled to spaces in any or all of Rust's officially managed discussion forums.
   - As the time of this writing this includes [Zulip] and [Discord].
-  - Groups also free to create their spaces on platforms where the Rust project does not have a official presence. Moderation for these spaces should still follow Rust's [Code of Conduct].
+  - Groups are also free to create spaces on platforms where the Rust project does not have a official presence. Moderation for these spaces should still follow Rust's [Code of Conduct].
 
 [zulip]: https://rust-lang.zulipchat.com
 [discord]: https://discord.gg/rust-lang
@@ -60,9 +60,9 @@ Before going into the differences between these groups it's important to start w
 
 ### Working Groups
 
-Working Group's typically focus on a specific domain of expertise, that is not covered by existing Rust team. Examples of this include Embedded, WebAssembly, and Game Development.
+Working Groups typically focus on a specific domain of expertise that is not covered by an existing Rust team. Examples of this include Embedded, WebAssembly, and Game Development.
 
-Working groups are a way to finding new areas that can sustain continual development. Though this is not required if a working group has shown to be regularly productive over a significant period time a working group can become a Rust team.
+Working groups are a way of finding new domains that would benefit from continual development. Though it is not required, if a working group has demonstrated consistent productivity over a significant period time, it can become a Rust team.
 
 - Creation of a Working Group is approved by the Core team.
 
