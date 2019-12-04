@@ -89,8 +89,9 @@ There's a lot of inertia around the Working Group terminology, and switching to 
 
 - The Working Group definition is still quite broad, this RFC currently doesn't layout the process of creating a working group to be approved, or how they should evaluated.
 - The term _"shepherd"_ term has been used extensively in the Rust project and the community to describe leaders of teams however there hasn't ever been a strict definition and this could come with different expectations of what a leader should be. This RFC does not attempt to define this term, however there are few resources that are helpful to understanding the terminology.
-  - [Niko Matsakis' "AiC: Shepherds 3.0"][niko-sheps]
-  - [James Munns' "Shepherding v3.1"][james-sheps]
+
+- [Niko Matsakis' "AiC: Shepherds 3.0"][niko-sheps]
+- [James Munns' "Shepherding v3.1"][james-sheps]
 
 [niko-sheps]: http://smallcultfollowing.com/babysteps/blog/2019/09/11/aic-shepherds-3-0/
 [james-sheps]: https://jamesmunns.com/blog/shepherding-3-1/
