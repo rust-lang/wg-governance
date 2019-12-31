@@ -2,7 +2,7 @@
 
 # Summary
 
-Currently there the Rust Programming Language organisation has a set of teams
+Currently the Rust Programming Language organisation has a set of teams
 called "Working Groups", however the definition and process of what these groups
 have become ill defined since their initial creation, especially as more and
 more people have used the same moniker for different purposes. This has caused
@@ -90,7 +90,7 @@ with what it is shared between them.
   making power" is defined as being able to accept RFCs on `rust-lang/rfcs`.
   Similarly, neither group has representation on the Core team.
 
-  - Groups are of course however able to and encouraged to create RFCs as well
+  - Groups are of course encouraged to create RFCs as well
     as advocate their concerns and desired changes to the Rust teams
     and community.
 
@@ -180,7 +180,7 @@ If a working group has demonstrated consistent productivity over a significant
 period time, and there is consensus that there is significant future work, it
 may become a Rust team. Conversely if there is consensus that the work is
 "complete" to the point that there's there is little benefit to continuing the
-working group. It may be wound down.
+working group, it may be wound down.
 
 The wind down process of a working group involves communicating the wind down to
 the community and the archival or transfer of ownership of the relevant projects.
@@ -189,7 +189,7 @@ the community and the archival or transfer of ownership of the relevant projects
 
 A Project Group is a group of people working on a particular project or
 responsibilities at the behest of an official Rust team. Examples of this would
-include [FFI Unwind], [Inline ASM], or [Safe Transmute].
+include [FFI Unwind], [Inline ASM], and [Safe Transmute].
 
 The goal of a project is build a community or formalise and existing community
 around a particular feature or project in the in the organisation, and use this
