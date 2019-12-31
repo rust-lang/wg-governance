@@ -3,14 +3,12 @@
 # Summary
 
 Currently the Rust Programming Language organisation has a set of teams
-
-> > > > > > > Update Working/Project Group RFC
-> > > > > > > called "Working Groups", however the definition and process of what these groups
-> > > > > > > have become ill defined since their initial creation, especially as more and
-> > > > > > > more people have used the same moniker for different purposes. This has caused
-> > > > > > > quite a bit of confusion between team members and the community at large. This
-> > > > > > > RFC seeks to clarify and codify the different sets of groups previously under
-> > > > > > > the "Working Group" umbrella term.
+called "Working Groups", however the definition and process of what these groups
+have become ill defined since their initial creation, especially as more and
+more people have used the same moniker for different purposes. This has caused
+quite a bit of confusion between team members and the community at large. This
+RFC seeks to clarify and codify the different sets of groups previously under
+the "Working Group" umbrella term.
 
 # Motivation
 
@@ -92,7 +90,7 @@ with what it is shared between them.
   making power" is defined as being able to accept RFCs on `rust-lang/rfcs`.
   Similarly, neither group has representation on the Core team.
 
-  - Groups are of course however able to and encouraged to create RFCs as well
+  - Groups are of course encouraged to create RFCs as well
     as advocate their concerns and desired changes to the Rust teams
     and community.
 
@@ -182,7 +180,7 @@ If a working group has demonstrated consistent productivity over a significant
 period time, and there is consensus that there is significant future work, it
 may become a Rust team. Conversely if there is consensus that the work is
 "complete" to the point that there's there is little benefit to continuing the
-working group. It may be wound down.
+working group, it may be wound down.
 
 The wind down process of a working group involves communicating the wind down to
 the community and the archival or transfer of ownership of the relevant projects.
