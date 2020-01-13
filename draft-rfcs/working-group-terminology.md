@@ -2,13 +2,24 @@
 
 # Summary
 
-Currently the Rust Programming Language organisation has a set of teams
-called "Working Groups", however the definition and process of what these groups
-have become ill defined since their initial creation, especially as more and
-more people have used the same moniker for different purposes. This has caused
-quite a bit of confusion between team members and the community at large. This
-RFC seeks to clarify and codify the different sets of groups previously under
-the "Working Group" umbrella term.
+- Formalize project groups as groups dedicated to completing specific projects
+  within the context of a Rust team
+- Project groups are created via an RFC and have a "parent team" (or
+  multiple teams)
+- The groups then drive the project to completion, e.g. by authoring follow-up
+  RFCs and doing design work.
+- Each project group typically has:
+  - A charter outlining the group's scope and goals.
+  - Appointed shepherds and team liasons.
+  - An associated repository.
+  - Regular meetings.
+  - Dedicated streams on Discord/Zulip/etc.
+- Define working groups to refer to the "domain working groups" that are created
+  to explore particular domains, such as embedded, CLI, etc.
+  - They have a charter and defined leads but operate more independently from
+    the Rust teams.
+- Define community group as the term for groups not formally affiliated with the
+  Rust project.
 
 # Motivation
 
@@ -86,9 +97,9 @@ with what it is shared between them.
   - Initial membership should try to represent people who have already been
     participating regularly and productively in the respective area.
 
-- Neither group has _"formal decision making power"_. Where "formal decision
-  making power" is defined as being able to accept RFCs on `rust-lang/rfcs`.
-  Similarly, neither group has representation on the Core team.
+- Neither group has _"formal decision making power"_: meaning that they are not
+  able to accept RFCs on `rust-lang/rfcs`. Similarly, neither group has
+  representation on the Core team.
 
   - Groups are of course encouraged to create RFCs as well
     as advocate their concerns and desired changes to the Rust teams
@@ -135,13 +146,8 @@ of this include [Embedded][embedded-wg], [WebAssembly][wasm-wg], and
 
 Creation of a working group is approved by the core team. Typically this has
 been done by the core team agreeing to approve the creation of new working
-groups and having a period of time soliciting applications from the community,
+groups, having a period of time soliciting applications from the community,
 and then approving a subset of those applications.
-
-> **DRAFT NOTE** Should this application come in the form of an RFC? My
-> inclination is yes, however it could just create more churn and drama than
-> needed. Posting in a thread on internals as was done previously might
-> be enough.
 
 #### Application Checklist
 
@@ -180,10 +186,11 @@ If a working group has demonstrated consistent productivity over a significant
 period time, and there is consensus that there is significant future work, it
 may become a Rust team. Conversely if there is consensus that the work is
 "complete" to the point that there's there is little benefit to continuing the
-working group, it may be wound down.
+working group, it may be archived.
 
-The wind down process of a working group involves communicating the wind down to
-the community and the archival or transfer of ownership of the relevant projects.
+The archival process of a working group involves communicating the wind down to
+the community and the archival or transfer of ownership of the
+relevant projects.
 
 ## Project Groups
 
@@ -217,6 +224,12 @@ Since project groups are approved by their relevant parent team over the core
 team, it's up to each team decide their specific requirements. However we
 recommend using the [application checklist](#application-checklist) as the basis
 for process and if needed adding any extra requirements.
+
+Process around project group membership is up to the shepherd's discretion.
+Typically, people who are productively contributing to the project group for
+some time will be added as members. It is not required for a project group to
+have alot of members though, some project groups may only have one or
+two members.
 
 ### Project Group Evaluation
 
