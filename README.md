@@ -5,6 +5,7 @@
 
 - **Dedicated repository:** [rust-lang/wg-governance][repository]
 - **Discord channel:** [#wg-governance][discord]
+- **Dedicated meetings document:** [https://hackmd.io/ATj1rZJaRimaIfIWfAOYfQ?edit]
 - **Loomio Group:** _TBD_
 
 
