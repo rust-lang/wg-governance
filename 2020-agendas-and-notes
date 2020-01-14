@@ -1,0 +1,39 @@
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+Meeting 14 January
+
+Agenda
+Finalize project groups RFC
+Review the action items from https://github.com/rust-lang/wg-governance/blob/master/minutes/2019.12.03.md#action-items
+
+Notes
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+Meeting 7 January
+
+Agenda
+Informally in Discord, discuss agenda for 14 January
+
+Notes
+XAMPPRocky updated working groups RFC based on previous meeting, this is commented version: https://github.com/rust-lang/wg-governance/pull/32
+XAMPPRocky will merge feedback in current version of RFC submitted for this meeting, and make a new PR addressing the feedback
+Template exists for working groups, project groups can use same
+Short summary of project group RFC by nmatsakis https://hackmd.io/xfW6jj7DQXeeVeNoCW2g3g
+Project groups have a more definite reporting relationship to their parent groups than working groups
+Creation of working groups should not start with an RFC
+Old discussion of form for creation of working groups, mentioned in passing https://internals.rust-lang.org/t/enabling-the-formation-of-new-working-groups/10218
+
+
+TEMPLATE
+------------------------------------------------------------------------------------------------------------------------------------
+Meeting [DATE]
+
+Agenda
+Finalize project groups RFC
+Review the action items from https://github.com/rust-lang/wg-governance/blob/master/minutes/2019.12.03.md#action-items
+
+Notes
