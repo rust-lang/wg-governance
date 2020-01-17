@@ -102,7 +102,7 @@ group does not have to find a liaison.
 
 6. When active work has stopped a group is "archived".
 
-- Archival is a not permanent state, it is only a reflection on the current
+- Archival is not necessarily a permanent state, it is only a reflection on the current
   status of the group. A group can be "restored" at a later stage.
 - Reasons to archive:
   - Nobody in the group has time anymore or higher priority things arose.
