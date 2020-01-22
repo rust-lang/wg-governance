@@ -72,9 +72,11 @@ the flow is built around project groups, we expect that working groups would
 follow a similar process with only minor specifics changed. E.g. A working
 group does not have to find a liaison.
 
-<img src="./resources/project-workflow.png"
-     alt="A flow diagram showing each step of a project group"
-     height="400px">
+<p align="center">
+    <img src="./resources/project-workflow.png"
+        alt="A flow diagram showing each step of a project group"
+        height="600px">
+</p>
 
 1. Exploratory period.
 
