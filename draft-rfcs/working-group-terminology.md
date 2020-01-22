@@ -2,13 +2,24 @@
 
 # Summary
 
-Currently the Rust Programming Language organisation has a set of teams
-called "Working Groups", however the definition and process of what these groups
-have become ill defined since their initial creation, especially as more and
-more people have used the same moniker for different purposes. This has caused
-quite a bit of confusion between team members and the community at large. This
-RFC seeks to clarify and codify the different sets of groups previously under
-the "Working Group" umbrella term.
+- Formalize project groups as groups dedicated to completing specific projects
+  within the context of a Rust team
+- Project groups are created via an RFC and have a "parent team" (or
+  multiple teams)
+- The groups then drive the project to completion, e.g. by authoring follow-up
+  RFCs and doing design work.
+- Each project group typically has:
+  - A charter outlining the group's scope and goals.
+  - Appointed shepherds and team liasons.
+  - An associated repository.
+  - Regular meetings.
+  - Dedicated streams on Discord/Zulip/etc.
+- Define working groups to refer to the "domain working groups" that are created
+  to explore particular domains, such as embedded, CLI, etc.
+  - They have a charter and defined leads but operate more independently from
+    the Rust teams.
+- Define community group as the term for groups not formally affiliated with the
+  Rust project.
 
 # Motivation
 
@@ -54,6 +65,87 @@ Group" term, into three distinct terms.
   organising groups that are independent of the Rust Programming
   Language Organisation.
 
+## Lifecycle of a Project Group
+
+This is a high level overview of the complete process of a project group. While
+the flow is built around project groups, we expect that working groups would
+follow a similar process with only minor specifics changed. E.g. A working
+group does not have to find a liaison.
+
+<p align="center">
+    <img src="./resources/project-group-workflow.png"
+        alt="A flow diagram showing each step of a project group"
+        height="800px">
+    <p align="center">Figure 1. Project Group Lifecycle</p>
+</p>
+
+### Steps
+
+1. Exploratory period.
+
+- Initial discussions of the problem area.
+- Write a charter containing motivation, and some notes on
+  possible solutions.
+- Find a person from the relevant team who's willing to act as a liaison.
+  - Typically can find someone by creating a post on [internals] or pinging
+    specific people from team to gauge their interest.
+
+2. Obtain consensus to create group.
+
+- Specify the liaison, and shepherd(s).
+- How consensus is reached would vary from team to team, some would require an
+  RFC while others could decide in a meeting. (See [Future Work](#future-work))
+
+3. Create infrastructure for group.
+
+- GitHub repository under `rust-lang` for hosting work and discussions, such
+  as for draft RFCs.
+- A Discord channel or a Zulip stream for communication.
+- Project group in [`rust-lang/team`], as well as a team on GitHub, for
+  handling permissions.
+
+4. Create a post on the Rust or Inside Rust blog announcing creation of
+   the group.
+
+5. The group works towards the goals laid out in their charter.
+
+6. When active work has stopped a group is "archived".
+
+- Archival is not necessarily a permanent state, it is only a reflection on the current
+  status of the group. A group can be "restored" at a later stage.
+- Reasons to archive:
+  - Nobody in the group has time anymore or higher priority things arose.
+  - There's a blocking issue that can't be resolved.
+  - Don't see any additional work to do in this area in the near future.
+  - The work was done to a satisfactory state.
+  - The group decided the idea wasn't so good after all.
+
+7. Create a blog post announcing the archival of the group.
+
+- The scope of this post will vary based on the scope of the group, but
+  ideally it would include some of the following.
+  - Overview of decisions, RFCs, and other output the group produced.
+  - Thoughts on the process, how it worked (or didn't as case may be), any
+    difficulties encountered, and what they would want to be improved.
+
+8. Archive infrastructure.
+
+- Archive GitHub repository to be read-only.
+- Archive chat channel(s) on any platforms.
+
+9. (Optional) Restore group
+
+- At any later point the group could be restored to active status if there are
+  assigned liaisons and shepherds, and the group has consensus from the team
+  that the group should become active again.
+- If significant time has passed, part of restoring the group should be to
+  evaluate whether the past decisions and rationale are still applicable to the
+  present.
+- If there is consensus to become active again, go to step 3.
+
+[`rust-lang/team`]: https://github.com/rust-lang/team
+[internals]: https://internals.rust-lang.org
+
 # Reference-level explanation
 
 ## Common Aspects of Working Groups and Project Groups
@@ -86,9 +178,9 @@ with what it is shared between them.
   - Initial membership should try to represent people who have already been
     participating regularly and productively in the respective area.
 
-- Neither group has _"formal decision making power"_. Where "formal decision
-  making power" is defined as being able to accept RFCs on `rust-lang/rfcs`.
-  Similarly, neither group has representation on the Core team.
+- Neither group has _"formal decision making power"_: meaning that they are not
+  able to accept RFCs on `rust-lang/rfcs`. Similarly, neither group has
+  representation on the Core team.
 
   - Groups are of course encouraged to create RFCs as well
     as advocate their concerns and desired changes to the Rust teams
@@ -135,13 +227,8 @@ of this include [Embedded][embedded-wg], [WebAssembly][wasm-wg], and
 
 Creation of a working group is approved by the core team. Typically this has
 been done by the core team agreeing to approve the creation of new working
-groups and having a period of time soliciting applications from the community,
+groups, having a period of time soliciting applications from the community,
 and then approving a subset of those applications.
-
-> **DRAFT NOTE** Should this application come in the form of an RFC? My
-> inclination is yes, however it could just create more churn and drama than
-> needed. Posting in a thread on internals as was done previously might
-> be enough.
 
 #### Application Checklist
 
@@ -180,10 +267,7 @@ If a working group has demonstrated consistent productivity over a significant
 period time, and there is consensus that there is significant future work, it
 may become a Rust team. Conversely if there is consensus that the work is
 "complete" to the point that there's there is little benefit to continuing the
-working group, it may be wound down.
-
-The wind down process of a working group involves communicating the wind down to
-the community and the archival or transfer of ownership of the relevant projects.
+working group, it may be archived.
 
 ## Project Groups
 
@@ -218,6 +302,12 @@ team, it's up to each team decide their specific requirements. However we
 recommend using the [application checklist](#application-checklist) as the basis
 for process and if needed adding any extra requirements.
 
+Process around project group membership is up to the shepherd's discretion.
+Typically, people who are productively contributing to the project group for
+some time will be added as members. It is not required for a project group to
+have alot of members though, some project groups may only have one or
+two members.
+
 ### Project Group Evaluation
 
 Parent teams should add checking in with their project groups as part of their
@@ -236,7 +326,13 @@ groups laid, but are free create and experiment with their own structure. As
 such community groups are not officially endorsed by The Rust Programming
 Language Organisation.
 
-## Retrospectives
+## Archival
+
+The archival process of a group involves communicating the wind down to the
+community and the archival or transfer of ownership of the relevant projects.
+As well archiving any chat channels hosted by the Rust project.
+
+### Retrospectives
 
 While this RFC attempts to address some of the current organisational problems
 within the organisation, it also doesn't believe that this RFC will be a panacea
@@ -244,10 +340,15 @@ to those problems or that we won't encounter more in the future. As part of
 that, we'd also like to introduce performing retrospectives with groups, once
 significant time has past or the group has been finished it's project.
 
-This would involve a discussion between the members of the group, their parent
-team, and the Governance working group. The retrospective should produce a
-public blog post on the Inside Rust blog, however any feedback a member has that
-they would want to keep private would be omitted.
+This would involve a discussion between the members of the group, and ideally
+their parent team and the Governance working group. The retrospective should
+produce a public blog post on the Inside Rust blog, however any feedback a
+member has that they would want to keep private would be omitted.
+
+The blog post should try to cover the output of the group, such as RFCs or
+projects, as well what the group thought worked and importantly what
+didn't work. This should help us iterate on this initial RFC and help us find
+and address issues that come up in the process.
 
 # Drawbacks
 
@@ -257,6 +358,16 @@ they would want to keep private would be omitted.
   to new terminology will likely also cause some confusion, though hopefully
   only in the short term.
 
+# Future Work
+
+- Ideally we'd prefer if every team obtained consensus to form groups through
+  RFCs, as they an open process that allows us to easily keep track of
+  decisions. However we recognise that the current RFC process is maybe too
+  heavyweight for some teams currently. We're currently looking how we can
+  simplify some of this process, see [wg-governance#38] for further information.
+
+[wg-governance#38]: https://github.com/rust-lang/wg-governance/issues/38
+
 # Unresolved questions
 
 [unresolved-questions]: #unresolved-questions
@@ -264,9 +375,8 @@ they would want to keep private would be omitted.
 - The term _"shepherd"_ term has been used extensively in the Rust project and
   the community to describe leaders of teams however there hasn't ever been a
   strict definition and this could come with different expectations of what is
-  expected from a shepherd. This RFC does not attempt to define this term,
-  however there are few resources that are helpful to understanding
-  the terminology.
+  expected from a shepherd. This RFC does not attempt to define this, however
+  there are few resources that are helpful to understanding the terminology.
 
 > - [Niko Matsakis' "AiC: Shepherds 3.0"][niko-sheps]
 > - [James Munns' "Shepherding v3.1"][james-sheps]
