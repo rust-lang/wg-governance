@@ -79,7 +79,7 @@ group does not have to find a liaison.
     <p align="center">Figure 1. Project Group Lifecycle</p>
 </p>
 
-### Detailed steps
+### Steps
 
 1. Exploratory period.
 
