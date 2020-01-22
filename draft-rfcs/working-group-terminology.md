@@ -73,12 +73,10 @@ follow a similar process with only minor specifics changed. E.g. A working
 group does not have to find a liaison.
 
 <p align="center">
-    <figure>
-        <img src="./resources/project-workflow.png"
-            alt="A flow diagram showing each step of a project group"
-            height="800px">
-        <figcaption>Project Group Lifecycle</figcaption>
-    </figure>
+    <img src="./resources/project-workflow.png"
+        alt="A flow diagram showing each step of a project group"
+        height="800px">
+    <p>Project Group Lifecycle</p>
 </p>
 
 1. Exploratory period.
