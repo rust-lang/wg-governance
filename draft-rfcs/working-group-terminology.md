@@ -73,7 +73,7 @@ follow a similar process with only minor specifics changed. E.g. A working
 group does not have to find a liaison.
 
 <p align="center">
-    <img src="./resources/project-workflow.png"
+    <img src="./resources/project-group-workflow.png"
         alt="A flow diagram showing each step of a project group"
         height="800px">
     <p align="center">Figure 1. Project Group Lifecycle</p>
