@@ -76,7 +76,7 @@ group does not have to find a liaison.
     <img src="./resources/project-workflow.png"
         alt="A flow diagram showing each step of a project group"
         height="800px">
-    <p style="color:gray">Figure 1. Project Group Lifecycle</p>
+    <p align="center">Figure 1. Project Group Lifecycle</p>
 </p>
 
 1. Exploratory period.
