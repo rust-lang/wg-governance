@@ -79,6 +79,8 @@ group does not have to find a liaison.
     <p align="center">Figure 1. Project Group Lifecycle</p>
 </p>
 
+### Detailed steps
+
 1. Exploratory period.
 
 - Initial discussions of the problem area.
