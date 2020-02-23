@@ -11,7 +11,7 @@
 _[See our current list of members here](https://www.rust-lang.org/governance/teams/core#wg-governance)._
 
 If you'd like to get involved, the best idea right now is to introduce yourself
-in our [zulip stream][zulip] -- and perhaps consider attending the next triage meeting to get involved.
+in our [zulip stream][zulip] — and perhaps consider attending the next triage meeting to get involved.
 
 ## Work style & Meetings
 
