@@ -9,7 +9,7 @@ This RFC proposes a policy for managing permissions to the [Rust Lang GitHub Org
 # Motivation
 [motivation]: #motivation
 
-Access control for the [Rust Lang GitHub Organization](https://www.github.com/rust-lang) and repositories within that organization is current managed ad-hoc. We need a policy that defines how these accesses are granted and managed. This will allow us to have greater security in permissions to our GitHub org and also allow the infra team to build appropriate tooling to automate access control when possible.
+Access control for the [Rust Lang GitHub Organization](https://www.github.com/rust-lang) and repositories within that organization is currently managed ad-hoc. We need a policy that defines how these accesses are granted and managed. This will allow us to have greater security in permissions to our GitHub org and also allow the infra team to build appropriate tooling to automate access control when possible.
 
 # Guide-level explanation
 [guide-level-explanation]: #guide-level-explanation
