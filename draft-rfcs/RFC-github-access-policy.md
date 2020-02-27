@@ -44,7 +44,7 @@ Additionally, the Rust High Five bot should have read access to all repositories
 # Drawbacks
 [drawbacks]: #drawbacks
 
-This policy would add more structure to managing GitHub permissions for both the [RustLang](https://github.com/rust-lang). Some might find this structure slows them down and alters their current workflow.
+This policy would add more structure to managing GitHub permissions for both the [Rust-Lang GitHub Organization](https://github.com/rust-lang) and all repositories within it. Some might find this structure slows them down and alters their current workflow.
 
 # Unresolved questions
 [unresolved-questions]: #unresolved-questions
