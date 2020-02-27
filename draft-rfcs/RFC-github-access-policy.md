@@ -5,6 +5,7 @@
 
 This RFC proposes a policy for managing permissions to the [Rust Lang GitHub Organization](https://www.github.com/rust-lang) and repositories within this organization.
 
+This RFC was written in consultation with the Governance Working Group and the Infrastructure team. Most discussion took place on [this issue](https://github.com/rust-lang/wg-governance) and [this pull request](https://github.com/rust-lang/wg-governance/pull/42).
 
 # Motivation
 [motivation]: #motivation
@@ -31,6 +32,8 @@ Access to and permissions for repositories within the Rust-Lang organization sho
 GitHub provides several permission levels for access to a repository. Please refer to [GitHub's documentation](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization) for details on permission levels and what each level can do.
 
 Repositories in the Rust-Lang organization should follow these permission guidelines:
+
+Permissions should **only** be given to teams within the Rust-Lang organization, not to individuals.
 
 * **Admin** - only Rust team or working group leads should have this permission level
 * **Write** - contributors within GitHub teams may have this permission level at the discretion of the team leads
