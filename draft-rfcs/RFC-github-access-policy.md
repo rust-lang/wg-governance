@@ -78,7 +78,7 @@ Please also take into consideration that rust sometimes intentionally diverges f
 # Unresolved questions
 [unresolved-questions]: #unresolved-questions
 
-- Should these rules applied to RustLang affiliated repositories and organizations that are outside of the [RustLang GitHub Org](https://www.github.com/rustlang)?
+- Should these rules applied to RustLang affiliated repositories and organizations that are outside of the [RustLang GitHub Org](https://www.github.com/rust-lang)?
 - How do we automate this?
 - How do we ensure that changes to the [Teams Repository](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization) are reviewed and merged promptly?
 
