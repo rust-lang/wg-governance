@@ -3,19 +3,19 @@
 # Summary
 [summary]: #summary
 
-This RFC proposes a policy for managing permissions to the [Rust Lang GitHub Organization](https://www.github.com/rust-lang) and repositories within this organization.
+This RFC proposes a policy for managing permissions to the [Rust-Lang GitHub Organization](https://www.github.com/rust-lang) and repositories within this organization.
 
 This RFC was written in consultation with the Governance Working Group and the Infrastructure team. Most discussion took place on [this issue](https://github.com/rust-lang/wg-governance) and [this pull request](https://github.com/rust-lang/wg-governance/pull/42).
 
 # Motivation
 [motivation]: #motivation
 
-Access control for the [Rust Lang GitHub Organization](https://www.github.com/rust-lang) and repositories within that organization is currently managed ad-hoc. We need a policy that defines how these accesses are granted and managed. This will allow us to have greater security in permissions to our GitHub org and also allow the infra team to build appropriate tooling to automate access control when possible.
+Access control for the [Rust-Lang GitHub Organization](https://www.github.com/rust-lang) and repositories within that organization is currently managed ad-hoc. We need a policy that defines how these accesses are granted and managed. This will allow us to have greater security in permissions to our GitHub org and also allow the infra team to build appropriate tooling to automate access control when possible.
 
 # Guide-level explanation
 [guide-level-explanation]: #guide-level-explanation
 
-## Rust GitHub Permissions Policy
+## Rust-Lang GitHub Permissions Policy
 This policy applies to both the [Rust-Lang GitHub Organization](https://github.com/rust-lang/) and all repositories within that organization.
 
 ### Rust-Lang Organization
@@ -52,6 +52,6 @@ This policy would add more structure to managing GitHub permissions for both the
 # Unresolved questions
 [unresolved-questions]: #unresolved-questions
 
-- Should these rules applied to RustLang affiliated repositories and organizations that are outside of the [RustLang GitHub Org](https://www.github.com/rustlang)?
+- Should these rules applied to Rust-Lang affiliated repositories and organizations that are outside of the [Rust-Lang GitHub Org](https://www.github.com/rustlang)?
 - Should we automate this process?
 - How do we ensure that changes to the [Teams Repository](https://github.com/rust-lang/team) are reviewed and merged promptly?
