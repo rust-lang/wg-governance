@@ -21,7 +21,9 @@ This policy applies to both the [Rust-Lang GitHub Organization](https://github.c
 ### Rust-Lang Organization
 Membership in the Rust-Lang GitHub organization is managed by the organization owners.
 
-Only members of the [Core Team](https://github.com/rust-lang/team/blob/master/teams/core.toml) and the [Infrastructure Team](https://github.com/rust-lang/team/blob/master/teams/infra.toml) can be Rust-Lang GitHub Organization owners.
+All members of the [Core Team](https://github.com/rust-lang/team/blob/master/teams/core.toml) have the right to be organization owners. 
+
+Selected members of the [Infrastructure Team](https://github.com/rust-lang/team/blob/master/teams/infra.toml) can also be organization owners if their work requires it.
 
 Owners should use a separate account from their main GitHub account dedicated to managing the organization. This account may not be used to commit code and must have 2FA enabled.
 
@@ -42,7 +44,7 @@ Permissions should **only** be given to teams within the Rust-Lang organization,
 
 By default, repositories should be public and allow read access to all. When needed, some repositories can have limited read access (i.e. repositories related to security). 
 
-Additionally, the Rust High Five bot should have read access to all repositories in the [Rust-Lang GitHub Organization](https://github.com/rust-lang/).
+Bot accounts controlled by the Infrastructure Team (such as the [Rust High Five Bot](https://github.com/rust-highfive)) can be granted any level of access required for them to work at the discretion of the Infrastructure Team.
 
 # Drawbacks
 [drawbacks]: #drawbacks
