@@ -1,0 +1,116 @@
+# Governance WG meeting 2020 Feb 27
+
+## Discussion agenda
+
+* Preliminary RFC draft for the GitHub access control policy
+* Pre-RFC process - determine right place to talk about this
+* Follow-up on moving (community, devtools, nursery) to rust-lang
+
+## Discussion topic: Preliminary RFC draft for the GitHub access control policy
+* Goal: Determine if this draft is ok to RFC
+* Outcome: Yes, is ready, and file RFC
+
+## Background material
+* https://github.com/rust-lang/wg-governance/pull/42
+
+## Discussion summary
+* Discussion if could just add to Forge and not make an RFC
+* Determination that RFC more visible and this useful, just need to merge faster than currently do
+
+## Discussion topic: Pre-RFC process
+* Goal: Determine right place to talk about this
+* Outcome: Worth a discussion, although this is not a decision venue
+
+## Background material
+* Blog post https://smallcultfollowing.com/babysteps/blog/2019/12/03/aic-improving-the-pre-rfc-process/
+* Internals discussion https://internals.rust-lang.org/t/aic-adventures-in-consensus/9843/20?u=nikomatsakis
+
+## Discussion summary
+* Topic is partial lang team and partial governance
+* Benefit is to help teams in updating their procedures
+* Not yet ready for discussion
+* Final decision: Discuss in next meeting
+
+## Discussion topic: Follow-up on moving (community, devtools, nursery) to rust-lang
+* Goal: Complete this process
+* Outcome:
+    * Tracker document not updated
+    * Unclear if process complete
+
+## Background material
+* Checklist https://hackmd.io/wdJIYSUCTCWKoAfu3y8Q0w?both
+
+## Discussion summary
+* What is official
+    * Extensive discussion about what can be moved without things being perceived inappropriately as "official" or "blessed"
+    * If something under Rust lang == "official" , then What can go there?
+    * Merely having the repo in rust-lang doesn't mean we have to put it on a prominent place in the web page or maintain etc
+    * NellShamrell adding a note to forge that something being in lang does not mean maintained and supported
+    * Will be under new permissions rules
+    * Further discussion needed
+* Proposed "necessary conditions" for migration:
+    * current project owners want to do the move
+    * migration is unlikely to cause confusion in the community (hence why not move awesome-rust)
+    * we are willing to give them sufficient access to current owners to continue contributing at the same level
+    * what does this end up meaning?
+    * what do we do with old, deprecated packages?
+* too-many-lists: Extensive discussion of whether can be moved to rust-lang
+    * yes because then it will be easier to find
+    * is valuable resource
+    * rust-unofficial has no public members
+    * was written by a former docs team member
+    * no concern about looking official, for some reason
+    * but NOT YET MOVE because if we can't delete rust-unofficial wait until we have a more formal idea of "what belongs in rust-lang" before moving
+* patterns: No, because not want blessings to specific patterns/crates (says Manish via XAMPPRocky)
+* rust-awesome: No, because not want blessings to specific patterns/crates (says Manish via XAMPPRocky); not Community team managed although some working are on also on Community team
+* error-chain - older and deprecated
+* rust-toolstate - still in use, confirmed by simulacrum
+* rust-cookbook - is maintained by libs team, check in with them before moving
+* lazy-static.rs - infra team, simulacrum likely owner,  ?next steps
+* rustc-perf - still used and should be moved
+* cli-wg - moved that repo to CLI WG org that repo is just there for redirects
+* rustc-timing - still used and should be moved
+* failure - deprecated as is error-chain
+* pin-utils - confirmed still relevant, ?next steps
+* thanks - archived, is fine as is
+* rust-lang-nursery/gll - ?eddyb is main maintainer ?could move to rust-lang or own GH org? Depends on status of grammar WG 
+* rustc-seme-regions - created by nikomatsakis who confirmed can be archived 
+* futures-rfcs - move the content into the new rust-lang/wg-async-foundations repo
+* ena - owned by compiler team, nikomatsakis will move
+
+## Loose conversation on same day as meeting
+* Meeting length
+    * 45-60min depending on how much to discuss
+* Handling Alumni (XAMPPRocky, PietroAlbini, NikoMatsakis)
+    * access changes
+    * added to alumni list
+    * non-automated things like Discord and Zulip removal
+    * basic info capture f what working on, 2-4 sentences
+    * what do about folks stopping activity on one team but moving to or continuing with another? Not Alumni . . .
+    * metadata would be nice, Alumni per team, Git commit messages likely sufficient, links to Inside Rust posts that thank
+        * Pietro had  idea how include alumni on teams, shared screenshot with dummy data
+    * update guide on Forge: https://forge.rust-lang.org/infra/team-maintenance.html - XAMPPRocky will do
+* Intro to contributing (discussed in Handling Alumni thread) (XAMPPRocky)
+    * Need one that's general to the Rust project to give better context
+    * Current contributing documentation is focused around the main repos
+    * There's actually a lot of different groups who would love contributors
+
+## Action items
+* NellShamrell creates RFC based on the draft shared here
+* NellShamrell adds info to Forge that "something being in the rust-lang org does not guarantee that it is maintained and supported"
+* What kind of things can live in lang repo/guides for what goes in rust-lang?
+    * What is "blessed" and what is "official
+    * Necessary conditions for migration to rust-lang-repo?
+* Confirm moves of things to rust-lang repo complete, followups below
+    * move things okayed to move
+    * lazy-static.rs - infra team, simulacrum likely owner,  ?next steps
+    * rust-cookbook - is maintained by libs team, check in with them before moving
+    * pin-utils - confirmed still relevant, ?next steps, likely moved?
+    * rust-lang-nursery/gll - ?eddyb is main maintainer ?could move to rust-lang or own GH org? Depends on status of grammar WG 
+* Discuss pre-RFC ----> to next meeting
+* Handling alumni report
+* Intro to contributing discussion
+
+
+
+
