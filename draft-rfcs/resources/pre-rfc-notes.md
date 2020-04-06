@@ -20,7 +20,6 @@
 * **shepherds** - the ones "in the trenches", summarizing conversations, driving the design
 * **liason** is called in as needed to help out, having meetings **with the shepherd** to give feedback and possibly raising things in the design meeting
 
-
 ## Resources
 * https://smallcultfollowing.com/babysteps/blog/2019/12/03/aic-improving-the-pre-rfc-process/
 * Lang Team process
