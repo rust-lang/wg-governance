@@ -1,0 +1,43 @@
+# Governance WG meeting April 23 2020
+On Zulip #wg-governance
+
+# Agenda items
+
+* Project Group RFC
+* Pre-RFC RFC* 
+* Domain WG Retrospective
+
+
+## Discussion topic: Project Group RFC
+
+*Is in Final comment Period, on track to be merged by the rfcbot
+
+## Discussion topic: Pre-RFC RFC
+
+* No update in meeting (although updates likely for next meeting)
+
+## Discussion topic: Domain WG Retrospective
+
+* Niko got some feedback from the WGs that was in this document. [https://hackmd.io/xsjzAW5-ThulwN9FlaP9NA]
+* Discussion of creating a post based on this and following up on the feedback
+* But there is lack of contextual clarity about how domain work relates to the Rust project in general
+* Benefits of WGs to the Rust project and vice versa
+* It does seem that the Rust language does evolve based on the work of the domain WGs, there is cross-pollination, e.g. the WASM/emscripten compiler targets
+* Created questionnaire to be shared with Domain WG leads via email to gain clarity on this
+* It may also be useful to develop a concrete, optional model for how domain wgs work, like the one already created for project groups
+* Domain groups implicitly answer these questions:
+- In which domains does Rust have a vested interest in building up the ecosystem and generally "succeeding" via adoption?
+- If I wanted to do some work in a domain using Rust, is there an existing community I can go to for support? If I wanted to propose changes to Rust to aid with this work, is there an existing channel?
+
+
+## Action items
+* Val Send questionnaire to Domain WG Leads
+
+Next meeting
+* Pre RFC RFC
+* Domain WG
+
+Backlog agenda items
+* On the dev-platform-request list on March 22 there was a question about the accuracy of this list
+of Rust components in Firefox. [https://wiki.mozilla.org/Oxidation#Rust_Components.]
+* Effective discussion of contested RFCs (e.g. turbfish)
