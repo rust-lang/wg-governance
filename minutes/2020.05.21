@@ -1,0 +1,52 @@
+# Governance WG meeting 2020.05.21
+
+
+## Discussion agenda
+Continue fleshing out definition of WG
+Proposed:
+-- Domain WG retrospective
+-- Discussion of visibility of resources
+-- Effective discussion of contested RFCs
+
+
+
+## Minutes
+* Domain working groups followup
+-- Survey sent, Niko to post on the GitHub issues to indicate no new domain teams are planned for now.
+* Proposal procedures / aka "Pre-RFC"
+-- Lang team had meeting to discuss, Niko created a [draft RC] (https://hackmd.io/StXzJPw7SriuM4COL_YfEw). 
+Comments on the draft best placed in [#t-lang > Design meeting: procedures] (https://rust-lang.zulipchat.com/#narrow/stream/213817-t-lang/topic/Design.20meeting.3A.20procedures)
+-- How can procedures and proposals process be standardized across teams? e.g. Compiler output is usually PRs whereas lang-team output is usually "we make a group and write RFCs". There are some specificities, but still of note. 
+-- New elements of the approach, from now:
+--- The team's repo contains the proposals and goals of the team
+--- A proposal starts from motivation+problem (at least for lang)
+--- Only one voice is needed for signoff, provided that person will help the proposal along
+---- So, for example,
+a person makes a proposal,
+a liaison comes forward to help to craft an RFC or PR
+The RFC or PR must still be accepted in order for the proposal to take effect.
+-- Keep visibility on who in team is working on what, prevent doing too many things at once
+-- After some amount of time, proposal is automatically merged into a "Draft proposals" repo, so things are kept tidy
+-- Having per-team repos maybe "silos" the conversation
+-- Distinction for when more open conversation is useful 
+-- Could create Zulip stream but first need a charter
+-- How much detail needed for proposals
+-- you have to be show the "rough shape" of a solution, enough to know it is solveable
+-- "Your proposal should contain at least one potential solution, but the team may require alternative proposed solutions before accepting"
+-- Mention of interest: A style guide to avoid the "I" focus
+
+
+### Action Items
+* Update Forge to include project group summary description based on [rfc#2856] (https://github.com/rust-lang/rfcs/pull/2856). (Val)
+
+
+### Backlog agenda items
+* Pre RFC RFC
+* Discussion of visibility of resources e.g. mailing list item 
+[https://groups.google.com/forum/#!searchin/mozilla.dev.platform/Accuracy$20of$20the$20list$20of$20Rust$20components$20in$20and$20around$20$20$20$20$20$20$20Firefox%7Csort:date/mozilla.dev.platform/7fxrk-susEI/UsAlv5-yB]
+and discussion of creating unofficial instances
+[https://rust-lang.zulipchat.com/#narrow/stream/122653-zulip/topic/Crate.20stream.20prefix.3F/near/196290565]
+Proposed item repeated and expanded from last meeting.
+* Effective discussion of contested RFCs (e.g. turbfish)
+    
+    
