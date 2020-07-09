@@ -12,4 +12,7 @@ The other files in this directory are minutes from video meetings.
 - [2020-04-23](https://rust-lang.zulipchat.com/#narrow/stream/223182-wg-governance/topic/Meeting.202020-04-23)
 - [2020-05-07](https://rust-lang.zulipchat.com/#narrow/stream/223182-wg-governance/topic/Meeting.202020-05-07)
 - [2020-05-21](https://rust-lang.zulipchat.com/#narrow/stream/223182-wg-governance/topic/Meeting.202020-05-21)
+- [2020-06-04](https://rust-lang.zulipchat.com/#narrow/stream/223182-wg-governance/topic/Meeting.202020-06-04)
+- [2020-06-25](https://rust-lang.zulipchat.com/#narrow/stream/223182-wg-governance/topic/Meeting.202020-06-25)
+- [2020-07-09]
 
