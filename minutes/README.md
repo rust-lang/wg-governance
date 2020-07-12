@@ -17,4 +17,4 @@ The other files in this directory are minutes from meetings.
 - [2020-07-09](https://rust-lang.zulipchat.com/#narrow/stream/223182-wg-governance/topic/Meeting.202020-07-09)
 
 ## Minutes
-- [https://github.com/rust-lang/wg-governance/tree/master/minutes]
+- [All Minutes](https://github.com/rust-lang/wg-governance/tree/master/minutes)
