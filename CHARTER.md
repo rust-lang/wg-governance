@@ -1,6 +1,6 @@
 # Governance WG Charter
 
-_last updated: [May 25th 2019]_ # FIXME: add link to loomio decision, [once moved](https://github.com/rust-lang/wg-governance/issues/7).
+_last updated: [July 12 2020]_ # FIXME: add link to loomio decision, [once moved](https://github.com/rust-lang/wg-governance/issues/7).
 
 ## Goals
 
@@ -39,23 +39,59 @@ To clarify, here are a few things we don't do and are not responsible for:
 
 This section gives a summary of the topics and projects we are considering to be our **initial priorities**. These are topics that serve urgent, foundational needs.
 
-### Survey
+### Survey of what things are "in flight"
 
-We recently sent out a survey to all Rust team members. The aim of this survey is to try to document what is working well within the Rust project and what needs improvement. We aim to do a series of these, on one side to gauge general happiness and surface yet unknown problems, on the other side to determine whether approaches taken show the expected results.
+* The "org taxonomy"
+    * Goal: To define a limited set of concepts that cover the sorts of official groups within the Rust org and their responsibilities
+    * Related to domain working groups ([wg-governance#46]), as we wanted to figure out how they fit into this
+    * Also related to efforts to create Staged RFCs
+    * One proposal: [Hackmd](https://hackmd.io/KHGL4YVPRU6QaEKoorBhrQ), defining groups as "with a concrete goal" and teams as "long-lived, standing structures"
+    * An alternative proposal, as discussed in the compiler team, is to try and define in terms of "how active" or "how you can get involved"
 
-### Domain working groups
+* Figure out what to do with Domain Working Groups ([wg-governance#46])
+    * Goal: Determine our policy with respect to Domain Working Groups, especially new ones, and how they fit into our overall structure
+    * Have to close down the "new application" policy -- assigned to nikomatsakis
+    * This is in some sense part of the "org taxonomy" question, but an important sub-part to work through
 
-We've had domain working groups for some time (they were first introduced as part of the [2018 Roadmap](https://blog.rust-lang.org/2018/03/12/roadmap.html#four-target-domains)). Since then, there have been a number of proposals to form new domain working groups, but we haven't had much agreement on what the criteria are to create a working group.
+* GitHub access policy
+    * Goal: Define a uniform access policy for repositories in the rust-lang org
+    * Status: Have pending [RFC #2872](https://hackmd.io/ATj1rZJaRimaIfIWfAOYfQ?edit), somewhat stalled on updates from GitHub
+    * Progress: many of the main repositories, especially in compiler/lang, are using the team repo to manage access now
+    * But does it have to be?
 
-We will layout a clear plan for what kind of expectations we have for working groups and how they operate. We expect to be developing such a plan in an iterative process: basically putting the plan to use and then using that experience to refine the plan.
+* Reflect group structure in the team repository
+    * Goal: Having an accurate representation of the current membership in the Rust structure
+    * Related to GitHub access policy, since GitHub teams ought to be created from the team repository
+    * Related to the "org taxonomy" since that defines the nouns and concepts used in the team repository
+    * Progress: audited most teams and associated working group membership
+    * Progress: trying to resolve implications of removing docs team, stuck on Rust By Example
 
-### Staged RFCs
+* Deprecate rust-lang-nursery
+    * Goal: Stop using the rust-lang-nursery, finding a new home for all the repositories within
+    * This involves kind of a lot of detailed work of tracking down people and figuring it out
 
-Rust’s RFC process is one of our great accomplishments, but it’s no secret that it has a few flaws. At its best, the RFC offers an opportunity for collaborative design that is really exciting to be a part of. At its worst, it can devolve into bickering without any real motion towards consensus. In the past, there have been various proposals to change the process, including a [proposal to introduce explicit stages](http://smallcultfollowing.com/babysteps/blog/2018/06/20/proposal-for-a-staged-rfc-process/).
+* Remove pre-FCP and streamline rfcbot [wg-governance#38]
+    * Goal: Eliminate the awkward FCP period we currently have
+    * This involves some coding work, not too hard
 
-One starting point here is participating in the [Lang Team Meta WG](https://github.com/rust-lang/lang-team/tree/master/working-groups/meta), which aims to revamp how the design of new language features works. A big part of this discussion will center around stages and staged RFCs.
+* Staged RFCs
+    * Goal: Revise the RFC model to incorporate staging and foster greater collaboration.
+    * Progress: compiler team and lang team MCPs, though that has been done somewhat independently from this group.
+    * Progress: Project group definition.
 
+* Project group
+    * Goal: Define the structure of a project group and update the team repo and webpage to reflect it
+    * Landed the RFC
+    * But team repo and webpage are not yet done
 
+* Accomplishments over time
+    * The team repository is much more up to date, and includes a lot more groups.
+    * Many repositories are using the team repository for their access rights.
+    * Many of the teams' membership is now synced automatically with GitHub through the team repository.
+    * Alumni are now separate recognised at the team level.
+    * Landed the Project Group RFC.
+    * Have a nearly complete access policy RFC.
+    
 ## In the long term: Money and foundations
 
 Currently, the Rust project has no way to accept donations. Meanwhile, the Mozilla foundation currently pays for Rust's CI and other infrastructure needs; Mozilla and other companies also employ people who work to improve Rust as at least a portion of their working day. Most Rust team members however are volunteers.
