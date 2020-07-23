@@ -4,7 +4,7 @@
 ## _[see the Charter][charter]_
 
 - **Zulip Stream:** [#wg-governance][zulip]
-- **Meeting Agenda:** https://hackmd.io/ATj1rZJaRimaIfIWfAOYfQ?edit
+- **Meeting Agenda:** See the ["Active Discussion" column in the WG Governance Project Board](https://github.com/rust-lang/wg-governance/projects/5)
 
 ## How can I get involved?
 
